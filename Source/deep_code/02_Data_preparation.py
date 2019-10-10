@@ -8,7 +8,8 @@ import seaborn as sns
 
 # 피마 인디언 당뇨병 데이터셋을 불러옵니다. 불러올 때 각 컬럼에 해당하는 이름을 지정합니다.
 df = pd.read_csv('../dataset/pima-indians-diabetes.csv',
-               names = ["pregnant", "plasma", "pressure", "thickness", "insulin", "BMI", "pedigree", "age", "class"])
+               names = ["pregnant", "plasma"
+                   , "pressure", "thickness", "insulin", "BMI", "pedigree", "age", "class"])
 
 # 처음 5줄을 봅니다.
 print(df.head(5))
